@@ -1,0 +1,196 @@
+body{
+    margin: 0px 0px;
+}
+
+.cabeçalho {
+    background-color: #79aae3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 900px;
+    padding: 10px;
+    align-items: center
+}
+
+.menus {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+.BtnAvaliar {
+    background-color: #F400A1;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.BtnAvaliar:hover {
+    background-color: #9a0066;
+}
+
+/*Banner*/
+.Banner {
+    background-color: #cecece;
+    width: 100%;
+    height: 400px;
+}
+
+.itensbanner img {
+    width: 400px
+}
+
+.itensbanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itensbanner h1 {
+    color: #F400A1;
+    font-size: 40px;
+}
+
+.itensbanner p {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Bem Vindo*/
+.containerBemVindo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 50px;
+    text-align: justify;
+    gap: 100px;
+}
+
+.texto1, .texto2 {
+    width: 50%;
+    font-size: 20px;
+}
+
+.texto1 h4 {
+    color: #F400A1
+}
+
+.beneficio {
+    background-color: #E1E5F7;
+    text-align: center;
+    padding: 10px;
+}
+
+.containerBeneficio h4 {
+    color: #F400A1;
+    font-size: 30px;
+}
+
+.itensBeneficio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itensBeneficio img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.itensBeneficio p {
+    color: #F400A1;
+    font-family: "Franklin Gothic Medium Cond";
+    font-size: 28px;
+    font-style: normal;
+}
+
+.containerAvaliacao {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    gap: 100px;
+}
+
+.intensAvaliacao h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.intensAvaliacao p {
+    color: #545D6E;
+    text-align: center;
+    font-size: 22px;
+}
+
+.intensAvaliacao form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.avaliacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.icone {
+    transition: transform 0.5s ease;
+}
+
+.icone:hover {
+    transform: scale(1.3);
+}
+
+.BtnForm {
+    width: 321px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    background-color: #f200a0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.BtnForm:hover {
+    background-color: #9a0066;
+}
+
+.rodape{
+	background-color: #79aae3;
+	color: #000000;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.rodape p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.LogoZap{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
